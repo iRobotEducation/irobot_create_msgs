@@ -1,6 +1,6 @@
-# iRobot Create Platform interfaces
+# iRobot® Create® Platform interfaces
 
-ROS 2 action, message and service definitions used by the iRobot Create Platform.
+ROS 2 action, message, and service definitions used by the iRobot® Create® Platform.
 
 For more information about ROS 2 interfaces, see [index.ros2.org](https://index.ros.org/doc/ros2/Concepts/About-ROS-Interfaces/)
 
@@ -14,7 +14,7 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 * [Dock](msg/Dock.msg): Information about the robot sensing the its dock charging station.
 * [HazardDetection](msg/HazardDetection.msg): An hazard or obstacle detected by the robot.
 * [HazardDetectionVector](msg/HazardDetectionVector.msg): All the hazards and obstacles detected by the robot.
-* [InterfaceButtons](msg/InterfaceButtons.msg): Status of the 3 interface buttons on the Create faceplate.
+* [InterfaceButtons](msg/InterfaceButtons.msg): Status of the 3 interface buttons on the Create® robot faceplate.
 * [IrIntensity](msg/IrIntensity.msg): Reading from an IR intensity sensor.
 * [IrIntensityVector](msg/IrIntensityVector.msg): Vector of current IR intensity readings from all sensors.
 * [IrOpcode](msg/IrOpcode.msg): Opcode detected by the robot IR receivers.
@@ -34,4 +34,3 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 
 ## To be implemented
 * AudioNoteCmd
-* AudioFileCmd
