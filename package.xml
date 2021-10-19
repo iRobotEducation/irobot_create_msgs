@@ -5,7 +5,7 @@
   <version>1.0.0</version>
   <description>Package containing action, message and service definitions used by the iRobot Create platform</description>
   <maintainer email="asoragna@irobot.com">Alberto Soragna</maintainer>
-  <license>Apache-2.0</license>
+  <license>BSD</license>
 
   <author email="asoragna@irobot.com">Alberto Soragna</author>
   <author email="jkearns@irobot.com">Justin Kearns</author>
