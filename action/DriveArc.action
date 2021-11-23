@@ -1,0 +1,12 @@
+# Request
+
+# Relative angle (radians) for robot to rotate along arc from current heading
+float32 angle
+# Radius of arc (meters) for robot to drive along
+float32 radius
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback

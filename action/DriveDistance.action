@@ -1,0 +1,10 @@
+# Request
+
+# Drive a distance (meters) in a straight line
+float32 distance
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback

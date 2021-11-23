@@ -1,0 +1,10 @@
+# Request
+
+# Rotate for relative angle (radians) from current robot position
+float32 angle
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback

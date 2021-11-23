@@ -6,6 +6,11 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 
 ## Actions (.action)
 * [DockServo](action/DockServo.action): Command the robot to dock into its charging station.
+* [DriveArc](action/DriveArc.action): Command the robot to drive along an arc defined by radius.
+* [DriveDistance](action/DriveDistance.action): Command the robot to drive a defined distance in a straight line.
+* [LedAnimation](action/LedAnimation.action): Command the lights to perform specified animation.
+* [NavigateToPosition](action/NavigateToPosition.action): Command the robot to drive to a goal odometry position using simple approach that rotates to face goal position then translates to goal position then optionally rotates to goal heading.
+* [RotateAngle](action/RotateAngle.action): Command the robot to rotate in place a specified amount.
 * [Undock](action/Undock.action): Command the robot to undock from its charging station.
 * [WallFollow](action/WallFollow.action): Command the robot to wall follow on left or right side using bump and IR sensors.
 

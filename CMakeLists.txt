@@ -20,6 +20,11 @@ find_package(std_msgs REQUIRED)
 
 set(action_files
   "action/DockServo.action"
+  "action/DriveArc.action"
+  "action/DriveDistance.action"
+  "action/LedAnimation.action"
+  "action/NavigateToPosition.action"
+  "action/RotateAngle.action"
   "action/Undock.action"
   "action/WallFollow.action"
 )
