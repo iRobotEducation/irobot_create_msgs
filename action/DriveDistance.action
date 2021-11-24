@@ -10,3 +10,5 @@ float32 max_translation_speed 0.3
 geometry_msgs/PoseStamped pose
 ---
 # Feedback
+# How much distance is left to travel
+float32 remaining_travel_distance

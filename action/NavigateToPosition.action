@@ -8,10 +8,6 @@ bool achieve_goal_heading
 float32 max_translation_speed 0.3
 # Max rotation speed (positive rad/s), will cap negative angle to negative speed
 float32 max_rotation_speed 1.9
-# How close to get to goal position (meters) to consider success
-float32 goal_position_tolerance 0.05
-# How close to get to goal orientation (radians) to consider success, if using heading
-float32 goal_heading_tolerance 0.05
 ---
 # Result
 # Pose where robot finished
@@ -26,3 +22,8 @@ int8 DRIVING_TO_GOAL_POSITION = 2
 int8 ROTATING_TO_GOAL_ORIENTATION = 3
 # Which of the 3 phases above that robot is currently in
 int8 navigate_state
+# Remaining radians to rotate when robot is ROTATING_TO_GOAL_POSITION or ROTATING_TO_GOAL_ORIENTATION
+float32 remaining_angle_travel
+# How much distance is left to travel when robot is DRIVING_TO_GOAL_POSITION
+float32 remaining_travel_distance
+
