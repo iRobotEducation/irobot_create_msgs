@@ -2,6 +2,8 @@
 
 # Rotate for relative angle (radians) from current robot position
 float32 angle
+# Max rotation speed (positive rad/s), will cap negative angle to negative speed
+float32 max_rotation_speed 1.9
 ---
 # Result
 # Pose where robot finished

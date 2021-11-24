@@ -4,6 +4,10 @@
 geometry_msgs/PoseStamped goal_pose
 # Whether to achieve goal heading for final orientation or just use position
 bool achieve_goal_heading
+# Max translation speed (positive m/s), will cap negative distance to negative speed
+float32 max_translation_speed 0.3
+# Max rotation speed (positive rad/s), will cap negative angle to negative speed
+float32 max_rotation_speed 1.9
 # How close to get to goal position (meters) to consider success
 float32 goal_position_tolerance 0.05
 # How close to get to goal orientation (radians) to consider success, if using heading
