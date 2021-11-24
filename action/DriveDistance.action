@@ -1,0 +1,14 @@
+# Request
+
+# Drive a distance (meters) in a straight line
+float32 distance
+# Max translation speed (positive m/s), will cap negative distance to negative speed
+float32 max_translation_speed 0.3
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback
+# How much distance is left to travel
+float32 remaining_travel_distance

@@ -1,0 +1,14 @@
+# Request
+
+# Rotate for relative angle (radians) from current robot position.  Angles greater than 2 PI will cause the robot to rotate in multiple circles
+float32 angle
+# Max rotation speed (positive rad/s), will cap negative angle to negative speed
+float32 max_rotation_speed 1.9
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback
+# Remaining radians to rotate
+float32 remaining_angle_travel

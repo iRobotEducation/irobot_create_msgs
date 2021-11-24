@@ -1,0 +1,18 @@
+# Request
+# Supported Animation types
+int8 BLINK_LIGHTS = 1
+int8 SPIN_LIGHTS = 2
+
+# Animation to apply
+int8 animation_type
+# LED values to apply to animation
+irobot_create_msgs/LightringLeds lightring
+# Time to apply animation
+builtin_interfaces/Duration max_runtime
+---
+# Result
+builtin_interfaces/Duration runtime
+---
+# Feedback
+# Time the animation has left to run
+builtin_interfaces/Duration remaining_runtime

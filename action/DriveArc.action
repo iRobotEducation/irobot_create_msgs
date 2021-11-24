@@ -1,0 +1,16 @@
+# Request
+
+# Relative angle (radians) for robot to rotate along arc from current heading.  Angles greater than 2 PI will cause the robot to rotate in multiple circles
+float32 angle
+# Radius of arc (meters) for robot to drive along
+float32 radius
+# Max translation speed (positive m/s), will cap negative distance to negative speed
+float32 max_translation_speed 0.3
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback
+# Remaining radians to rotate
+float32 remaining_angle_travel

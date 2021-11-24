@@ -1,0 +1,29 @@
+# Request
+
+# Drive to goal position in odometry frame using simple rotate/translate/rotate approach
+geometry_msgs/PoseStamped goal_pose
+# Whether to achieve goal heading for final orientation or just use position
+bool achieve_goal_heading
+# Max translation speed (positive m/s), will cap negative distance to negative speed
+float32 max_translation_speed 0.3
+# Max rotation speed (positive rad/s), will cap negative angle to negative speed
+float32 max_rotation_speed 1.9
+---
+# Result
+# Pose where robot finished
+geometry_msgs/PoseStamped pose
+---
+# Feedback
+# Whether robot is in first phase rotating to face travel direction to goal position
+int8 ROTATING_TO_GOAL_POSITION = 1
+# Whether robot is in second phase translating to to goal position
+int8 DRIVING_TO_GOAL_POSITION = 2
+# Whether robot is in third phase rotating to face goal orientation
+int8 ROTATING_TO_GOAL_ORIENTATION = 3
+# Which of the 3 phases above that robot is currently in
+int8 navigate_state
+# Remaining radians to rotate when robot is ROTATING_TO_GOAL_POSITION or ROTATING_TO_GOAL_ORIENTATION
+float32 remaining_angle_travel
+# How much distance is left to travel when robot is DRIVING_TO_GOAL_POSITION
+float32 remaining_travel_distance
+
