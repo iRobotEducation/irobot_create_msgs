@@ -44,6 +44,7 @@ set(msg_files
   "msg/Mouse.msg"
   "msg/SlipStatus.msg"
   "msg/StopStatus.msg"
+  "msg/WheelStatus.msg"
   "msg/WheelTicks.msg"
   "msg/WheelVels.msg"
 )
