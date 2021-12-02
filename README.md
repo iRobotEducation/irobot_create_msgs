@@ -29,6 +29,7 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 * [Mouse](msg/Mouse.msg): Reading from a mouse sensor.
 * [SlipStatus](msg/SlipStatus.msg): Whether the robot is currently slipping or not.
 * [StopStatus](msg/StopStatus.msg): Whether the robot is currently stopped or not.
+* [WheelStatus](msg/WheelStatus.msg): Current/PWM readings from the robot two wheels in addition to whether wheels are enabled.
 * [WheelTicks](msg/WheelTicks.msg): Reading from the robot two wheels encoders.
 * [WheelVels](msg/WheelVels.msg): Indication about the robot two wheels current speed.
 
