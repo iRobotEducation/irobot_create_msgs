@@ -35,7 +35,7 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 
 ## Services (.srv)
 * [EStop](srv/EStop.srv): Set system EStop on or off, cutting motor power when on and enabling motor power when off.
-* [ResetPose](src/ResetPose.srv): Reset the robot pose estimate to the specified value.
+* [ResetPose](srv/ResetPose.srv): Reset the robot pose estimate to the specified value.
 * [RobotPower](srv/RobotPower.srv): Power off robot.
 
 ## To be implemented
