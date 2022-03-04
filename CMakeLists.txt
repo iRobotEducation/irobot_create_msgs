@@ -30,6 +30,8 @@ set(action_files
 )
 
 set(msg_files
+  "msg/AudioNote.msg"
+  "msg/AudioNoteVector.msg"
   "msg/Button.msg"
   "msg/Dock.msg"
   "msg/HazardDetection.msg"
