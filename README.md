@@ -16,6 +16,7 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 
 ## Messages (.msg)
 * [AudioNote](msg/AudioNote.msg): Command the robot to play a note.
+* [AudioNoteVector](msg/AudioNoteVector.msg): Command the robot to play a sequence of notes.
 * [Button](msg/Button.msg): Status for a button.
 * [Dock](msg/Dock.msg): Information about the robot sensing the its dock charging station.
 * [HazardDetection](msg/HazardDetection.msg): An hazard or obstacle detected by the robot.
