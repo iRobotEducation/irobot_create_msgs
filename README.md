@@ -15,6 +15,8 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 * [WallFollow](action/WallFollow.action): Command the robot to wall follow on left or right side using bump and IR sensors.
 
 ## Messages (.msg)
+* [AudioNote](msg/AudioNote.msg): Command the robot to play a note.
+* [AudioNoteVector](msg/AudioNoteVector.msg): Command the robot to play a sequence of notes.
 * [Button](msg/Button.msg): Status for a button.
 * [Dock](msg/Dock.msg): Information about the robot sensing the its dock charging station.
 * [HazardDetection](msg/HazardDetection.msg): An hazard or obstacle detected by the robot.
@@ -37,6 +39,3 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 * [EStop](srv/EStop.srv): Set system EStop on or off, cutting motor power when on and enabling motor power when off.
 * [ResetPose](srv/ResetPose.srv): Reset the robot pose estimate to the specified value.
 * [RobotPower](srv/RobotPower.srv): Power off robot.
-
-## To be implemented
-* AudioNoteCmd
