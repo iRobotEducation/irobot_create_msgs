@@ -1,0 +1,22 @@
+# Request
+# Special number of iterations to signify play sequence until canceled
+int32 INFINITE = -1
+
+# Number of note_sequence iterations to play, defaults to 1
+int32 iterations 1
+# Sequence of notes to play per iteration
+irobot_create_msgs/AudioNoteVector note_sequence
+---
+# Result
+# Whether sequence played all requested iterations
+bool complete
+# Number of iterations of note sequence that were played
+int32 iterations_played
+# Runtime of audio playback
+builtin_interfaces/Duration runtime
+---
+# Feedback
+# Number of iterations of note sequence that have been played
+int32 iterations_played
+# Runtime of audio playback so far
+builtin_interfaces/Duration current_runtime

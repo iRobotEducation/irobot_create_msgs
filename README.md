@@ -5,6 +5,7 @@ ROS 2 action, message, and service definitions used by the iRobot® Create® Pla
 For more information about ROS 2 interfaces, see [index.ros2.org](https://index.ros.org/doc/ros2/Concepts/About-ROS-Interfaces/)
 
 ## Actions (.action)
+* [AudioNoteSequence](action/AudioNoteSequence.action): Play a given set of notes from the speaker for a given number of iterations.
 * [DockServo](action/DockServo.action): Command the robot to dock into its charging station.
 * [DriveArc](action/DriveArc.action): Command the robot to drive along an arc defined by radius.
 * [DriveDistance](action/DriveDistance.action): Command the robot to drive a defined distance in a straight line.
