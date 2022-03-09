@@ -4,7 +4,7 @@ int32 INFINITE = -1
 
 # Number of note_sequence iterations to play, defaults to 1
 int32 iterations 1
-# Sequence of notes to play for per iteration
+# Sequence of notes to play per iteration
 irobot_create_msgs/AudioNoteVector note_sequence
 ---
 # Result
@@ -19,4 +19,4 @@ builtin_interfaces/Duration runtime
 # Number of iterations of note sequence that have been played
 int32 iterations_played
 # Runtime of audio playback so far
-builtin_interfaces/Duration runtime
+builtin_interfaces/Duration current_runtime
