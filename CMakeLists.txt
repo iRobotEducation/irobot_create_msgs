@@ -19,6 +19,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 set(action_files
+  "action/AudioNoteSequence.action"
   "action/DockServo.action"
   "action/DriveArc.action"
   "action/DriveDistance.action"
