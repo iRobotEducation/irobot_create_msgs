@@ -20,7 +20,7 @@ find_package(std_msgs REQUIRED)
 
 set(action_files
   "action/AudioNoteSequence.action"
-  "action/DockServo.action"
+  "action/Dock.action"
   "action/DriveArc.action"
   "action/DriveDistance.action"
   "action/LedAnimation.action"
@@ -34,7 +34,7 @@ set(msg_files
   "msg/AudioNote.msg"
   "msg/AudioNoteVector.msg"
   "msg/Button.msg"
-  "msg/Dock.msg"
+  "msg/DockStatus.msg"
   "msg/HazardDetection.msg"
   "msg/HazardDetectionVector.msg"
   "msg/InterfaceButtons.msg"

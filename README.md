@@ -6,7 +6,7 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 
 ## Actions (.action)
 * [AudioNoteSequence](action/AudioNoteSequence.action): Play a given set of notes from the speaker for a given number of iterations.
-* [DockServo](action/DockServo.action): Command the robot to dock into its charging station.
+* [Dock](action/Dock.action): Command the robot to dock into its charging station.
 * [DriveArc](action/DriveArc.action): Command the robot to drive along an arc defined by radius.
 * [DriveDistance](action/DriveDistance.action): Command the robot to drive a defined distance in a straight line.
 * [LedAnimation](action/LedAnimation.action): Command the lights to perform specified animation.
@@ -19,7 +19,7 @@ For more information about ROS 2 interfaces, see [index.ros2.org](https://index.
 * [AudioNote](msg/AudioNote.msg): Command the robot to play a note.
 * [AudioNoteVector](msg/AudioNoteVector.msg): Command the robot to play a sequence of notes.
 * [Button](msg/Button.msg): Status for a button.
-* [Dock](msg/Dock.msg): Information about the robot sensing the its dock charging station.
+* [DockStatus](msg/DockStatus.msg): Information about the robot sensing its dock charging station.
 * [HazardDetection](msg/HazardDetection.msg): An hazard or obstacle detected by the robot.
 * [HazardDetectionVector](msg/HazardDetectionVector.msg): All the hazards and obstacles detected by the robot.
 * [InterfaceButtons](msg/InterfaceButtons.msg): Status of the 3 interface buttons on the Create® robot faceplate.
